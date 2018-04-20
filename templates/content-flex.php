@@ -32,6 +32,10 @@ if( have_rows('flexible_content') ):
 
             get_template_part('templates/partials/content', 'latest');
 
+        elseif( get_row_layout() == 'gallery' ): 
+
+            get_template_part('templates/partials/content', 'gallery');
+
         elseif( get_row_layout() == 'latest_cases' ): 
 
             get_template_part('templates/partials/content', 'cases');
