@@ -1,3 +1,4 @@
+<div class="main-navigation">
 <header class="site-header">
 <div class="container-fluid">
     <div class="left">
@@ -15,7 +16,7 @@
     <div class="right">
        <ul class="header-cta">
           <li><?php echo do_shortcode('[phone]'); ?></li>
-          <li><a href="<?php get_field('header_cta_link', 'options'); ?>" class="btn btn-primary"><?php the_field('header_cta_text', 'options'); ?></a>
+          <li><a href="<?php get_field('header_cta_link', 'options'); ?>" class="btn btn-primary"><?php the_field('header_cta_text', 'options'); ?></a></li>
         </ul>
     </div>
 
