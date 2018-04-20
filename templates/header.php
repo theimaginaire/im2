@@ -24,7 +24,7 @@
 </header>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-  <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav_content" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
   </button>
   
@@ -35,7 +35,7 @@
                 'depth'             => 2,
                 'container'         => 'div',
                 'container_class'   => 'collapse navbar-collapse justify-content-center',
-                'container_id'      => 'nav_content',
+                'container_id'      => 'nav-content',
                 'menu_class'        => 'navbar-nav',
                 'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                 'walker'            => new WP_Bootstrap_Navwalker())
