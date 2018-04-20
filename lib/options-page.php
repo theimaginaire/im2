@@ -366,32 +366,7 @@ acf_add_local_field_group(array (
 			'max_size' => '',
 			'mime_types' => '',
 		),
-		array (
-			'key' => 'field_59c24a639e479',
-			'label' => 'Header Style',
-			'name' => 'header_style',
-			'type' => 'radio',
-			'instructions' => '',
-			'required' => 0,
-			'conditional_logic' => 0,
-			'wrapper' => array (
-				'width' => '',
-				'class' => '',
-				'id' => '',
-			),
-			'choices' => array (
-				'header-1' => 'Style 1',
-				'header-2' => 'Style 2',
-				'header-3' => 'Style 3',
-				'header-4' => 'Style 4',
-			),
-			'allow_null' => 0,
-			'other_choice' => 0,
-			'save_other_choice' => 0,
-			'default_value' => '',
-			'layout' => 'vertical',
-			'return_format' => 'value',
-		),
+		
 		array (
 			'key' => 'field_59c27085be6c5',
 			'label' => 'Header CTA Text',
@@ -411,6 +386,7 @@ acf_add_local_field_group(array (
 			'append' => '',
 			'maxlength' => '',
 		),
+		
 		array (
 			'key' => 'field_59c2708ebe6c6',
 			'label' => 'Header CTA Link',

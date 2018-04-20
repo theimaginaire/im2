@@ -26,7 +26,7 @@
 	height: auto;
 }
 
-header {
+.site-header {
 	.header-cta {
 		list-style: none;
 		padding: 0;
@@ -45,13 +45,6 @@ header {
 		padding: 0;
 		margin: 0;
 	}
-}
-.header-1 {
-	.navbar {
-		padding: 0rem 0rem;
-	}
-}
-.header-2 {
 	.left, .right, .center-panel {
 		display: flex;
 		float: left;
@@ -85,5 +78,4 @@ header {
 		}
 
 	}
-
 }

@@ -15,7 +15,7 @@ if( have_rows('extra_block') ):
 	        if($bgstyle=='colour'):
 	        	$style = "background-color:".get_sub_field('bg_colour').";";
 	        elseif($bgstyle=='image'):
-	        	$style = "background-image:url(".bloginfo('template_directory')."/dist/images/grey.png);";
+	        	$style = "background-image:url(".get_bloginfo('template_directory')."/dist/images/grey.png);";
 	        endif;
 	        if(get_sub_field('text_colour')) $style .= "color:".get_sub_field('text_colour').";";
 	?>

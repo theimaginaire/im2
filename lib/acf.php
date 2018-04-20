@@ -414,6 +414,17 @@ acf_add_local_field_group(array (
 				'id' => '',
 			),
 			'layouts' => array (
+				'bavasgs7as7yxh' => array (
+					'key' => 'bavasgs7as7yxh',
+					'name' => 'main_content',
+					'label' => 'Main Content',
+					'display' => 'block',
+					'sub_fields' => array (
+						
+					),
+					'min' => '',
+					'max' => '1',
+				),
 				'59c422c3316fe' => array (
 					'key' => '59c422c3316fe',
 					'name' => 'fw_image',

@@ -17,23 +17,11 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_header');
 
-      // Which header to be shown
+      get_template_part('templates/header');
 
-      $header_type = get_field('header_style', 'options');
-      if( $header_type ):
-          $path = 'templates/'.$header_type;
-          if(locate_template($path.'.php')):
-            get_template_part($path);
-          else: 
-            get_template_part('templates/header', 'default');
-          endif;
-      else: 
-        get_template_part('templates/header', 'default');
-      endif;
-
-
-     
       get_template_part('templates/content', 'carousel'); 
+
+      if(!have_rows('flexible_content')):
     ?>
     <div class="wrap container" role="document">
       <div class="content row">
@@ -49,6 +37,7 @@ use Roots\Sage\Wrapper;
     </div><!-- /.wrap -->
 
     <?php
+    endif;
       get_template_part('templates/content', 'flex');
       get_template_part('templates/content', 'extra'); 
       do_action('get_footer');

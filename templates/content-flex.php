@@ -6,7 +6,11 @@ if( have_rows('flexible_content') ):
      // loop through the rows of data
     while ( have_rows('flexible_content') ) : the_row();
 
-        if( get_row_layout() == 'fw_image' ):
+        if( get_row_layout() == 'main_content'):
+
+            get_template_part('templates/partials/content', 'main');
+
+        elseif( get_row_layout() == 'fw_image' ):
         	$image = get_sub_field('image');
         ?>
         	<img class="fw-image" src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>" />
