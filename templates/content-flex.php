@@ -48,6 +48,10 @@ if( have_rows('flexible_content') ):
 
             get_template_part('templates/partials/content', 'testimonials');
 
+        elseif( get_row_layout() == 'logos' ): 
+
+            get_template_part('templates/partials/content', 'logo-carousel');
+
         endif;
 
     endwhile;

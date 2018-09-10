@@ -41,6 +41,23 @@
             nav: true,
             navText: ["<i class='fa fa-angle-left'>","<i class='fa fa-angle-right'>"] // Sets what appears in the nav boxes
         });
+        $('.logo-carousel').owlCarousel({
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:10000,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        });
         $('.owl-carousel').owlCarousel({
             items:1,
             lazyLoad:true,
